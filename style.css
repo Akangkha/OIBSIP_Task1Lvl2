@@ -112,3 +112,19 @@ body {
   font-size: 30px;
   height: 32px;
 }
+
+
+.top,.light,.r,.enter:hover
+{
+  cursor: pointer;
+  box-shadow: 0 5px 8px rgba(81, 81, 81, 0.8);
+}
+
+
+.cal{
+position: relative;
+left:23px;
+top:10px;
+font-size: 13px;
+color: rgba(0, 0, 0, 0.711);
+}

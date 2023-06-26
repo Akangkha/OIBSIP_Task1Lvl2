@@ -42,6 +42,10 @@ function del() {
 console.log("Hello");
 
 function ans() {
-  let y = eval(s);
-  document.querySelector(".output").innerHTML = y;
+  try {
+    let y = eval(s);
+    document.querySelector(".output").innerHTML = y;
+  } catch {
+    document.querySelector(".output").innerHTML = "ERROR";
+  }
 }
